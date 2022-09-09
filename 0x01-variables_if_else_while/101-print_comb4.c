@@ -19,10 +19,10 @@ for (c = 2; c <= 9; c++)
 {
 if (c > b && b > a)
 {
-putchar(i + '0');
-putchar(p + '0');
-putchar(m + '0');
-if (i != 7)
+putchar(a + '0');
+putchar(b + '0');
+putchar(c + '0');
+if (a != 7)
 {
 putchar(',');
 putchar(' ');
