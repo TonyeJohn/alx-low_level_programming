@@ -9,18 +9,18 @@
 
 int main(void)
 {
-int i, p, m;
+int a, b, c;
 
-for (i = 0; i <= 9; i++)
+for (a = 0; a <= 9; a++)
 {
-for (p = 1; p <= 9; p++)
+for (b = 1; b <= 9; b++)
 {
-for (m = 2; m <= 9; m++)
+for (c = 2; c <= 9; c++)
 {
-if (m > p && p > i)
+if (c > b && b > a)
 {
 putchar(i + '0');
-putchar(p + '0')
+putchar(p + '0');
 putchar(m + '0');
 if (i != 7)
 {
