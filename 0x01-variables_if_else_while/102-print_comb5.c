@@ -5,6 +5,7 @@
  * Return: returns zero at the end
  */
 int main(void)
+
 {
 int a,b;
 for (a = 0; a < 100; a++)
