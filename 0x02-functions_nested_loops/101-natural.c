@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-/**
-*print_last_digit - Prints the last digit of a number.
- *@n: The number in question.
- *
- * Return: Always 0.
- */
-
+/** 
+  * main - list all natural numbers multiples of 3 & 5 
+  * 
+  * Return: Always 0. 
+  */
 int main(void)
 {
 int sum = 0;
