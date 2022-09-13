@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /** 
-  * main - list all natural numbers multiples of 3 & 5 
+  * main() - list all natural numbers multiples of 3 & 5 
   * 
   * Return: Always 0. 
   */
