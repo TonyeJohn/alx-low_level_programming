@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints natural numbers below 1024 that are
- * multiplies of 3 or 5
+*print_last_digit - Prints the last digit of a number.
+ *@n: The number in question.
  *
  * Return: Always 0.
  */
