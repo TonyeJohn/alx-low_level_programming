@@ -1,5 +1,8 @@
 #include <stdio.h>
+
 /**
+ * main - prints the first 98 fibonaci sequences
+ * Return: 0
  * numLength - returns the lenth of string
  * @num : operand number
  * Return: number of digits
