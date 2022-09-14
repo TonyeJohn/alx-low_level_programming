@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 98 fibonaci sequences
- * Return: 0
  * numLength - returns the lenth of string
  * @num : operand number
+ * Return: number of digits
  */
 
 int numLength(int num)
@@ -24,6 +23,10 @@ int numLength(int num)
 
 	return (length);
 }
+/**
+ * main - prints the first 98 fibonaci sequences
+ * Return: 0
+ */
 int main(void)
 {
 	unsigned long f1 = 1, f2 = 2, tmp, mx = 100000000, f1o = 0, f2o = 0, tmpo = 0;
