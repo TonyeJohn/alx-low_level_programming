@@ -18,10 +18,12 @@ int main(void)
 	while (x <= 2645)
 	{
 		c = rand() % 128;
+		if ((x + c) > 2772)
+			break;
 		x += c;
-		putchar(c);
+		printf("%c", c);
 	}
-	putchar(2772 - x);
+	printf("%c\n", (2772 - x));
 
 	return (0);
 }
