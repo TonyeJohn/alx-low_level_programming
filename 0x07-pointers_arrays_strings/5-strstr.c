@@ -20,9 +20,7 @@ if (haystack[i + j] == needle[j])
 j++;
 else
 break;
-}
 if (needle[j])
-{
 i++;
 j = 0;
 }
