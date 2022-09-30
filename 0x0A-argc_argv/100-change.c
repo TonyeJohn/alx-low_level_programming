@@ -3,7 +3,7 @@
 
 /**
  * main - prints the minimum number of coins
- * @argc: Argument count
+ * @args: Argument count
  * @argv: Argument vector
  *
  * Return: Return 0

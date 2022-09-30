@@ -4,7 +4,7 @@
 
 /**
  * main - program that adds positive numbers
- * @argc: Argument count 
+ * @argc: Argument count
  * @argv: Argument vector
  *
  * Return: Return 0
@@ -21,6 +21,7 @@ int main(int argc, char *argv[])
 		{
 			int a;
 			char *str;
+
 			str = argv[i];
 
 			for (a = 0; str[a] != '\0'; a++)
