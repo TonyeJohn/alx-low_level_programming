@@ -11,7 +11,7 @@
 
 int wordnos(char *s)
 {
-	int flag c, w;
+	int flag, c, w;
 
 	flag = 0;
 	w = 0;
